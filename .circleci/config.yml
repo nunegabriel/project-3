@@ -33,10 +33,10 @@ jobs:
             echo " ------- login in to hub--------"
             docker login -u nunegabriel -p $DOCKERPASS
             echo "-------------- Pushing images to dockerhub-------"
-            docker push nunegabriel/udagram-api-feed:v3
-            docker push nunegabriel/udagram-api-user:v3
-            docker push nunegabriel/udagram-frontend:v3
-            docker push nunegabriel/udagram-reverseproxy:v3
+            docker push nunegabriel/udagram-api-feed
+            docker push nunegabriel/udagram-api-user
+            docker push nunegabriel/udagram-frontend
+            docker push nunegabriel/udagram-reverseproxy
 workflows:
   default:
     jobs:
