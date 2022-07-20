@@ -3,8 +3,8 @@ kind: ConfigMap
 metadata:
   name: env-config
 data:
-  # POSTGRES_USERNAME: gabriel
-  # POSTGRES_PASSWORD: lgc720x
+  POSTGRES_USERNAME: gabriel
+  POSTGRES_PASSWORD: lgc720x
   POSTGRES_HOST: gabriel.ccmxicjyjs37.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
   AWS_BUCKET: uda-3
